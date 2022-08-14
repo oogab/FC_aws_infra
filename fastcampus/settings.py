@@ -31,7 +31,8 @@ ALLOWED_HOSTS = ['172.31.45.2', '172.31.41.84', '172.31.36.156',
     'ec2-3-35-208-7.ap-northeast-2.compute.amazonaws.com',
     'fc-aws-infra-ELB-2123070017.ap-northeast-2.elb.amazonaws.com',
     'www.henge.link',
-    'henge.link'
+    'henge.link',
+    '127.0.0.1'
 ]
 
 
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
     'order',
     'boss',
     'delivery',
+    'user',
     'rest_framework'
 ]
 
